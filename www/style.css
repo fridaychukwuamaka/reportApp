@@ -1,0 +1,113 @@
+.header{
+    overflow: hidden;
+    background-color: rgb(173, 55, 0);
+    height: 50px;  
+    width:100%;
+    position: fixed;
+    top: 0;
+}
+
+.card{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.11);
+}
+
+footer{
+    background-color: rgb(173, 55, 0);
+    height: 50px; 
+    color: white;
+    position: fixed;
+    width:100%;
+    bottom: 0;
+}
+
+.account{
+    position: absolute;
+    right: 45%;
+}
+
+.account {
+    display: none;
+}
+
+.report{
+    position: absolute;
+    left: 6%;
+}
+
+.admin{
+    position: absolute;
+    right: 6%;
+}
+
+.logout{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    color: white;
+    background-color: rgb(173, 55, 0);
+}
+
+.send{
+    display: none;
+}
+
+.back{
+    position: absolute; 
+    color: white;
+    background-color: black; 
+    margin-left: 47px;
+}
+
+.menu{
+    padding-top: 13px ;
+}
+
+.menu li{
+    list-style-type: none;
+    display: inline-flex;
+    cursor: pointer;
+    
+    
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+.jumbotron{
+    margin-top: 100px ;
+}
+
+.form{
+    margin: 30% 40px ;
+    border: solid white 2px;
+    padding: 50px 30px;
+    border-radius: 6px;
+}
+input[type="email"], input[type="password"], input[type="text"]{
+    border: none !important;
+    border-bottom: solid black 1.4px !important;
+}
+
+.login{
+    background-color:  rgb(173, 55, 0);
+    color : white;
+}
+
+.h {
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+}
+
+textarea{
+    width: 100%;
+    border: solid black 1.4px;
+    border-radius: 3px;
+}
+
+#auth, #account{
+    display: none;
+}
